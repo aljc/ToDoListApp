@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ToDoItem.h"
 
 @interface AddToDoItemViewController : UIViewController
+
+//note: need to access the to-do item from table view controller later, so make this property public (.h)
+@property ToDoItem *toDoItem;
 
 @end
