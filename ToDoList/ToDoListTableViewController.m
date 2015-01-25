@@ -42,7 +42,7 @@
     //retrieve value of source's toDoItem property
     ToDoItem *item = source.toDoItem;
     
-    //check whether itme exists
+    //check whether item exists
     if (item != nil) {
         [self.toDoItems addObject:item];
         
@@ -57,12 +57,6 @@
     
     self.toDoItems = [[NSMutableArray alloc] init];
     [self loadInitialData];
-    
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
 - (void)didReceiveMemoryWarning {

@@ -98,7 +98,7 @@
         <!--Navigation Controller-->
         <scene sceneID="4jg-9Z-7VM">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="FHe-NR-Ugf" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="FHe-NR-Ugf" customClass="NavigationController" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="jbJ-lx-pd2">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -116,7 +116,7 @@
         <!--Navigation Controller-->
         <scene sceneID="xIx-ti-T6x">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="00a-80-ewL" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="00a-80-ewL" customClass="NavigationController" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="nnT-l0-L2Z">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
